@@ -12,8 +12,8 @@ import (
 	"io"
 	"strings"
 
-	"github.com/btcsuite/goleveldb/leveldb/errors"
-	"github.com/btcsuite/goleveldb/leveldb/storage"
+	"bitbucket.com/cloudwallet/goleveldb/leveldb/errors"
+	"bitbucket.com/cloudwallet/goleveldb/leveldb/storage"
 )
 
 type byteReader interface {

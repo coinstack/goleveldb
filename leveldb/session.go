@@ -12,10 +12,10 @@ import (
 	"os"
 	"sync"
 
-	"github.com/btcsuite/goleveldb/leveldb/errors"
-	"github.com/btcsuite/goleveldb/leveldb/journal"
-	"github.com/btcsuite/goleveldb/leveldb/opt"
-	"github.com/btcsuite/goleveldb/leveldb/storage"
+	"bitbucket.com/cloudwallet/goleveldb/leveldb/errors"
+	"bitbucket.com/cloudwallet/goleveldb/leveldb/journal"
+	"bitbucket.com/cloudwallet/goleveldb/leveldb/opt"
+	"bitbucket.com/cloudwallet/goleveldb/leveldb/storage"
 )
 
 // ErrManifestCorrupted records manifest corruption. This error will be

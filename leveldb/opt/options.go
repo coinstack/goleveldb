@@ -10,9 +10,9 @@ package opt
 import (
 	"math"
 
-	"github.com/btcsuite/goleveldb/leveldb/cache"
-	"github.com/btcsuite/goleveldb/leveldb/comparer"
-	"github.com/btcsuite/goleveldb/leveldb/filter"
+	"bitbucket.com/cloudwallet/goleveldb/leveldb/cache"
+	"bitbucket.com/cloudwallet/goleveldb/leveldb/comparer"
+	"bitbucket.com/cloudwallet/goleveldb/leveldb/filter"
 )
 
 const (

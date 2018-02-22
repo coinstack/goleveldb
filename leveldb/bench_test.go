@@ -16,9 +16,9 @@ import (
 	"sync/atomic"
 	"testing"
 
-	"github.com/btcsuite/goleveldb/leveldb/iterator"
-	"github.com/btcsuite/goleveldb/leveldb/opt"
-	"github.com/btcsuite/goleveldb/leveldb/storage"
+	"bitbucket.com/cloudwallet/goleveldb/leveldb/iterator"
+	"bitbucket.com/cloudwallet/goleveldb/leveldb/opt"
+	"bitbucket.com/cloudwallet/goleveldb/leveldb/storage"
 )
 
 func randomString(r *rand.Rand, n int) []byte {
