@@ -10,7 +10,7 @@ import (
 	"bytes"
 	"testing"
 
-	"github.com/btcsuite/goleveldb/leveldb/comparer"
+	"bitbucket.org/cloudwallet/goleveldb/leveldb/comparer"
 )
 
 var defaultIComparer = &iComparer{comparer.DefaultComparer}

@@ -7,7 +7,7 @@ import (
 
 	"github.com/onsi/gomega"
 
-	"github.com/btcsuite/goleveldb/leveldb/testutil"
+	"bitbucket.org/cloudwallet/goleveldb/leveldb/testutil"
 )
 
 type testFileRec struct {
