@@ -13,9 +13,9 @@ import (
 	"math/rand"
 	"testing"
 
-	"bitbucket.com/cloudwallet/goleveldb/leveldb/filter"
-	"bitbucket.com/cloudwallet/goleveldb/leveldb/opt"
-	"bitbucket.com/cloudwallet/goleveldb/leveldb/storage"
+	"github.com/btcsuite/goleveldb/leveldb/filter"
+	"github.com/btcsuite/goleveldb/leveldb/opt"
+	"github.com/btcsuite/goleveldb/leveldb/storage"
 )
 
 const ctValSize = 1000

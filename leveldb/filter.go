@@ -7,7 +7,7 @@
 package leveldb
 
 import (
-	"bitbucket.com/cloudwallet/goleveldb/leveldb/filter"
+	"github.com/btcsuite/goleveldb/leveldb/filter"
 )
 
 type iFilter struct {

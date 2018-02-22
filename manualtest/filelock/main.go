@@ -9,7 +9,7 @@ import (
 	"os/exec"
 	"path/filepath"
 
-	"bitbucket.com/cloudwallet/goleveldb/leveldb/storage"
+	"github.com/btcsuite/goleveldb/leveldb/storage"
 )
 
 var (

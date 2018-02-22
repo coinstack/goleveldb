@@ -11,9 +11,9 @@ import (
 	"sync/atomic"
 	"time"
 
-	"bitbucket.com/cloudwallet/goleveldb/leveldb/journal"
-	"bitbucket.com/cloudwallet/goleveldb/leveldb/memdb"
-	"bitbucket.com/cloudwallet/goleveldb/leveldb/storage"
+	"github.com/btcsuite/goleveldb/leveldb/journal"
+	"github.com/btcsuite/goleveldb/leveldb/memdb"
+	"github.com/btcsuite/goleveldb/leveldb/storage"
 )
 
 var (

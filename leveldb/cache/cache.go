@@ -12,7 +12,7 @@ import (
 	"sync/atomic"
 	"unsafe"
 
-	"bitbucket.com/cloudwallet/goleveldb/leveldb/util"
+	"github.com/btcsuite/goleveldb/leveldb/util"
 )
 
 // Cacher provides interface to implements a caching functionality.

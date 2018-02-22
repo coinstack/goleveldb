@@ -17,14 +17,14 @@ import (
 	"sync/atomic"
 	"time"
 
-	"bitbucket.com/cloudwallet/goleveldb/leveldb/errors"
-	"bitbucket.com/cloudwallet/goleveldb/leveldb/iterator"
-	"bitbucket.com/cloudwallet/goleveldb/leveldb/journal"
-	"bitbucket.com/cloudwallet/goleveldb/leveldb/memdb"
-	"bitbucket.com/cloudwallet/goleveldb/leveldb/opt"
-	"bitbucket.com/cloudwallet/goleveldb/leveldb/storage"
-	"bitbucket.com/cloudwallet/goleveldb/leveldb/table"
-	"bitbucket.com/cloudwallet/goleveldb/leveldb/util"
+	"github.com/btcsuite/goleveldb/leveldb/errors"
+	"github.com/btcsuite/goleveldb/leveldb/iterator"
+	"github.com/btcsuite/goleveldb/leveldb/journal"
+	"github.com/btcsuite/goleveldb/leveldb/memdb"
+	"github.com/btcsuite/goleveldb/leveldb/opt"
+	"github.com/btcsuite/goleveldb/leveldb/storage"
+	"github.com/btcsuite/goleveldb/leveldb/table"
+	"github.com/btcsuite/goleveldb/leveldb/util"
 )
 
 // DB is a LevelDB database.

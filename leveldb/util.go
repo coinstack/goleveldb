@@ -10,7 +10,7 @@ import (
 	"fmt"
 	"sort"
 
-	"bitbucket.com/cloudwallet/goleveldb/leveldb/storage"
+	"github.com/btcsuite/goleveldb/leveldb/storage"
 )
 
 func shorten(str string) string {

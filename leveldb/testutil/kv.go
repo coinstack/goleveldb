@@ -12,7 +12,7 @@ import (
 	"sort"
 	"strings"
 
-	"bitbucket.com/cloudwallet/goleveldb/leveldb/util"
+	"github.com/btcsuite/goleveldb/leveldb/util"
 )
 
 type KeyValueEntry struct {

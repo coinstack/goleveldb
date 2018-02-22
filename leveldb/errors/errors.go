@@ -11,8 +11,8 @@ import (
 	"errors"
 	"fmt"
 
-	"bitbucket.com/cloudwallet/goleveldb/leveldb/storage"
-	"bitbucket.com/cloudwallet/goleveldb/leveldb/util"
+	"github.com/btcsuite/goleveldb/leveldb/storage"
+	"github.com/btcsuite/goleveldb/leveldb/util"
 )
 
 // Common errors.
