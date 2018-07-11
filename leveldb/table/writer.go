@@ -12,10 +12,10 @@ import (
 	"fmt"
 	"io"
 
-	"bitbucket.org/cloudwallet/goleveldb/leveldb/comparer"
-	"bitbucket.org/cloudwallet/goleveldb/leveldb/filter"
-	"bitbucket.org/cloudwallet/goleveldb/leveldb/opt"
-	"bitbucket.org/cloudwallet/goleveldb/leveldb/util"
+	"github.com/coinstack/goleveldb/leveldb/comparer"
+	"github.com/coinstack/goleveldb/leveldb/filter"
+	"github.com/coinstack/goleveldb/leveldb/opt"
+	"github.com/coinstack/goleveldb/leveldb/util"
 	"github.com/btcsuite/snappy-go"
 )
 

@@ -9,9 +9,9 @@ package leveldb
 import (
 	"sync/atomic"
 
-	"bitbucket.org/cloudwallet/goleveldb/leveldb/iterator"
-	"bitbucket.org/cloudwallet/goleveldb/leveldb/memdb"
-	"bitbucket.org/cloudwallet/goleveldb/leveldb/opt"
+	"github.com/coinstack/goleveldb/leveldb/iterator"
+	"github.com/coinstack/goleveldb/leveldb/memdb"
+	"github.com/coinstack/goleveldb/leveldb/opt"
 )
 
 func (s *session) pickMemdbLevel(umin, umax []byte, maxLevel int) int {

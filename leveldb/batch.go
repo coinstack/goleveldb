@@ -11,9 +11,9 @@ import (
 	"fmt"
 	"io"
 
-	"bitbucket.org/cloudwallet/goleveldb/leveldb/errors"
-	"bitbucket.org/cloudwallet/goleveldb/leveldb/memdb"
-	"bitbucket.org/cloudwallet/goleveldb/leveldb/storage"
+	"github.com/coinstack/goleveldb/leveldb/errors"
+	"github.com/coinstack/goleveldb/leveldb/memdb"
+	"github.com/coinstack/goleveldb/leveldb/storage"
 )
 
 // ErrBatchCorrupted records reason of batch corruption. This error will be

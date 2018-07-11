@@ -11,12 +11,12 @@ import (
 	"sort"
 	"sync/atomic"
 
-	"bitbucket.org/cloudwallet/goleveldb/leveldb/cache"
-	"bitbucket.org/cloudwallet/goleveldb/leveldb/iterator"
-	"bitbucket.org/cloudwallet/goleveldb/leveldb/opt"
-	"bitbucket.org/cloudwallet/goleveldb/leveldb/storage"
-	"bitbucket.org/cloudwallet/goleveldb/leveldb/table"
-	"bitbucket.org/cloudwallet/goleveldb/leveldb/util"
+	"github.com/coinstack/goleveldb/leveldb/cache"
+	"github.com/coinstack/goleveldb/leveldb/iterator"
+	"github.com/coinstack/goleveldb/leveldb/opt"
+	"github.com/coinstack/goleveldb/leveldb/storage"
+	"github.com/coinstack/goleveldb/leveldb/table"
+	"github.com/coinstack/goleveldb/leveldb/util"
 )
 
 // tFile holds basic information about a table.

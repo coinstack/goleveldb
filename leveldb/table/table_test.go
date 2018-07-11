@@ -12,11 +12,11 @@ import (
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
 
-	"bitbucket.org/cloudwallet/goleveldb/leveldb/iterator"
-	"bitbucket.org/cloudwallet/goleveldb/leveldb/opt"
-	"bitbucket.org/cloudwallet/goleveldb/leveldb/storage"
-	"bitbucket.org/cloudwallet/goleveldb/leveldb/testutil"
-	"bitbucket.org/cloudwallet/goleveldb/leveldb/util"
+	"github.com/coinstack/goleveldb/leveldb/iterator"
+	"github.com/coinstack/goleveldb/leveldb/opt"
+	"github.com/coinstack/goleveldb/leveldb/storage"
+	"github.com/coinstack/goleveldb/leveldb/testutil"
+	"github.com/coinstack/goleveldb/leveldb/util"
 )
 
 type tableWrapper struct {

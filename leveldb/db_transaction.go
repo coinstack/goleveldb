@@ -11,9 +11,9 @@ import (
 	"sync"
 	"time"
 
-	"bitbucket.org/cloudwallet/goleveldb/leveldb/iterator"
-	"bitbucket.org/cloudwallet/goleveldb/leveldb/opt"
-	"bitbucket.org/cloudwallet/goleveldb/leveldb/util"
+	"github.com/coinstack/goleveldb/leveldb/iterator"
+	"github.com/coinstack/goleveldb/leveldb/opt"
+	"github.com/coinstack/goleveldb/leveldb/util"
 )
 
 var errTransactionDone = errors.New("leveldb: transaction already closed")

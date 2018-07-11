@@ -7,7 +7,7 @@
 package leveldb
 
 import (
-	"bitbucket.org/cloudwallet/goleveldb/leveldb/errors"
+	"github.com/coinstack/goleveldb/leveldb/errors"
 )
 
 // Common errors.

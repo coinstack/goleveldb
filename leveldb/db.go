@@ -17,14 +17,14 @@ import (
 	"sync/atomic"
 	"time"
 
-	"bitbucket.org/cloudwallet/goleveldb/leveldb/errors"
-	"bitbucket.org/cloudwallet/goleveldb/leveldb/iterator"
-	"bitbucket.org/cloudwallet/goleveldb/leveldb/journal"
-	"bitbucket.org/cloudwallet/goleveldb/leveldb/memdb"
-	"bitbucket.org/cloudwallet/goleveldb/leveldb/opt"
-	"bitbucket.org/cloudwallet/goleveldb/leveldb/storage"
-	"bitbucket.org/cloudwallet/goleveldb/leveldb/table"
-	"bitbucket.org/cloudwallet/goleveldb/leveldb/util"
+	"github.com/coinstack/goleveldb/leveldb/errors"
+	"github.com/coinstack/goleveldb/leveldb/iterator"
+	"github.com/coinstack/goleveldb/leveldb/journal"
+	"github.com/coinstack/goleveldb/leveldb/memdb"
+	"github.com/coinstack/goleveldb/leveldb/opt"
+	"github.com/coinstack/goleveldb/leveldb/storage"
+	"github.com/coinstack/goleveldb/leveldb/table"
+	"github.com/coinstack/goleveldb/leveldb/util"
 )
 
 // DB is a LevelDB database.

@@ -12,9 +12,9 @@ import (
 
 	. "github.com/onsi/gomega"
 
-	"bitbucket.org/cloudwallet/goleveldb/leveldb/errors"
-	"bitbucket.org/cloudwallet/goleveldb/leveldb/iterator"
-	"bitbucket.org/cloudwallet/goleveldb/leveldb/util"
+	"github.com/coinstack/goleveldb/leveldb/errors"
+	"github.com/coinstack/goleveldb/leveldb/iterator"
+	"github.com/coinstack/goleveldb/leveldb/util"
 )
 
 type DB interface{}

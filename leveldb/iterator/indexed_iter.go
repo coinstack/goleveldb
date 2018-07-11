@@ -7,8 +7,8 @@
 package iterator
 
 import (
-	"bitbucket.org/cloudwallet/goleveldb/leveldb/errors"
-	"bitbucket.org/cloudwallet/goleveldb/leveldb/util"
+	"github.com/coinstack/goleveldb/leveldb/errors"
+	"github.com/coinstack/goleveldb/leveldb/util"
 )
 
 // IteratorIndexer is the interface that wraps CommonIterator and basic Get

@@ -6,7 +6,7 @@
 
 package leveldb
 
-import "bitbucket.org/cloudwallet/goleveldb/leveldb/comparer"
+import "github.com/coinstack/goleveldb/leveldb/comparer"
 
 type iComparer struct {
 	ucmp comparer.Comparer

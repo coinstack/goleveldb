@@ -19,7 +19,7 @@ import (
 
 	. "github.com/onsi/gomega"
 
-	"bitbucket.org/cloudwallet/goleveldb/leveldb/storage"
+	"github.com/coinstack/goleveldb/leveldb/storage"
 )
 
 var (

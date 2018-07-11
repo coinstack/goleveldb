@@ -10,9 +10,9 @@ import (
 	"sync"
 	"time"
 
-	"bitbucket.org/cloudwallet/goleveldb/leveldb/errors"
-	"bitbucket.org/cloudwallet/goleveldb/leveldb/opt"
-	"bitbucket.org/cloudwallet/goleveldb/leveldb/storage"
+	"github.com/coinstack/goleveldb/leveldb/errors"
+	"github.com/coinstack/goleveldb/leveldb/opt"
+	"github.com/coinstack/goleveldb/leveldb/storage"
 )
 
 var (

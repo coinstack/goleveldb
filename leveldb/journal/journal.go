@@ -82,9 +82,9 @@ import (
 	"fmt"
 	"io"
 
-	"bitbucket.org/cloudwallet/goleveldb/leveldb/errors"
-	"bitbucket.org/cloudwallet/goleveldb/leveldb/storage"
-	"bitbucket.org/cloudwallet/goleveldb/leveldb/util"
+	"github.com/coinstack/goleveldb/leveldb/errors"
+	"github.com/coinstack/goleveldb/leveldb/storage"
+	"github.com/coinstack/goleveldb/leveldb/util"
 )
 
 // These constants are part of the wire format and should not be changed.

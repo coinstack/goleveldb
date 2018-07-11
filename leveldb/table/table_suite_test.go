@@ -3,7 +3,7 @@ package table
 import (
 	"testing"
 
-	"bitbucket.org/cloudwallet/goleveldb/leveldb/testutil"
+	"github.com/coinstack/goleveldb/leveldb/testutil"
 )
 
 func TestTable(t *testing.T) {

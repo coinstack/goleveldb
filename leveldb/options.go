@@ -7,8 +7,8 @@
 package leveldb
 
 import (
-	"bitbucket.org/cloudwallet/goleveldb/leveldb/filter"
-	"bitbucket.org/cloudwallet/goleveldb/leveldb/opt"
+	"github.com/coinstack/goleveldb/leveldb/filter"
+	"github.com/coinstack/goleveldb/leveldb/opt"
 )
 
 func dupOptions(o *opt.Options) *opt.Options {

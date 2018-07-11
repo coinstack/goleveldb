@@ -8,7 +8,7 @@ package filter
 
 import (
 	"encoding/binary"
-	"bitbucket.org/cloudwallet/goleveldb/leveldb/util"
+	"github.com/coinstack/goleveldb/leveldb/util"
 	"testing"
 )
 

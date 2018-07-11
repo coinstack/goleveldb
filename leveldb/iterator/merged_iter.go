@@ -7,9 +7,9 @@
 package iterator
 
 import (
-	"bitbucket.org/cloudwallet/goleveldb/leveldb/comparer"
-	"bitbucket.org/cloudwallet/goleveldb/leveldb/errors"
-	"bitbucket.org/cloudwallet/goleveldb/leveldb/util"
+	"github.com/coinstack/goleveldb/leveldb/comparer"
+	"github.com/coinstack/goleveldb/leveldb/errors"
+	"github.com/coinstack/goleveldb/leveldb/util"
 )
 
 type dir int

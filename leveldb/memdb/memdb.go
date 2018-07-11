@@ -11,10 +11,10 @@ import (
 	"math/rand"
 	"sync"
 
-	"bitbucket.org/cloudwallet/goleveldb/leveldb/comparer"
-	"bitbucket.org/cloudwallet/goleveldb/leveldb/errors"
-	"bitbucket.org/cloudwallet/goleveldb/leveldb/iterator"
-	"bitbucket.org/cloudwallet/goleveldb/leveldb/util"
+	"github.com/coinstack/goleveldb/leveldb/comparer"
+	"github.com/coinstack/goleveldb/leveldb/errors"
+	"github.com/coinstack/goleveldb/leveldb/iterator"
+	"github.com/coinstack/goleveldb/leveldb/util"
 )
 
 // Common errors.
